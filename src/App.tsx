@@ -1,14 +1,15 @@
 function Button() {
-  return <h1>Hello</h1>
+  return <button>Enviar</button>
 }
 function App() {
-  return([
-      <Button/>,
-      <Button/>,
-      <Button/>,
-      <Button/>,
+  return( 
+    <div>
       <Button/>
-  ])
+      <Button/>
+      <Button/>
+      <Button/>
+      <Button/>
+    </div>)
 }
 
 export default App
