@@ -1,7 +1,13 @@
-import { useState } from 'react'
-
+function Button() {
+  return <h1>Hello</h1>
+}
 function App() {
-  return <h1>Hello World</h1>
+  return( 
+    <div>
+      <Button/>
+      <Button/>
+      <Button/>
+    </div>)
 }
 
 export default App
